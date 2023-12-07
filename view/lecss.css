@@ -1,0 +1,51 @@
+body {
+    background-image: url("../bootstrap/etudiant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* 
+#messages {
+    height: 0px;
+    overflow: hidden;
+    padding: 10px;
+    background-image: url("OIP.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua; 
+} */
+
+form {
+    display: flex;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 20px;
+    /* cursor: pointer; */
+}
+
+.messagerie {
+    position: fixed;
+    bottom: 0;
+    width: 1350px;
+}
+
+#sms {
+    flex: 2;
+}
+
+#envoyer {
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(103, 198, 105);
+    /* box-shadow: 0 6px rgb(161, 31, 31); */
+}
